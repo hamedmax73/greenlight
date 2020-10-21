@@ -16,17 +16,23 @@
 <div class="background">
   <div class="container pt-9 pb-8">
     <div class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
-        <% end %>
-        <h3>حامد</h3>
-      </div>
+     <div class="col-md-12 col-sm-12 text-center">
+             <h1 id="main-text" class="display-4 mb-4"> پنل آموزش مجازی آمانج </h1>
+             <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><a target="_blank" rel="noopener" href="https://amanjacademy.com">آکادمی آمانج</a>
+                 سیستم آموزش مجازی خود را با امکانات مورد نیاز برای یادگیری مجازی فراهم نموده است. این سیستم در حال حاضر در دست بررسی و توسعه است و پیشاپیش بابت بروز برخی اشکالات پوزش مطلبیم.
+                 در صورتیکه نتوانستید وارد وبینار شوید یک بار دیگر با بروز رسانی پنل خود و زدن بر روی دکمه
+                 "ورود به وبینار"
+                  سعی کنید وارد شوید و در صورت اشکال مجدد با تیم پشتیبانی آمانج در ارتباط باشید.
+              </p>
+         <!--    <a target="_blank" href="https://youtu.be/Hso8yLzkqj8">
+               <h4>Watch our tutorial on using Greenlight <i class="far fa-play-circle ml-1"></i></h4>
+     </a>        <h3>حامد</h3>
+     -->
+           </div>
 
     </div>
   </div>
 </div>
 
-<%= render "main/components/features" %>
+<%= #render "main/components/features"
+%>
