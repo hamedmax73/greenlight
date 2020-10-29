@@ -1,0 +1,37 @@
+a.dropdown-item {
+  direction: rtl;
+  width: 100%;
+  text-align: right;
+}
+
+a.dropdown-item i {
+  margin-right: 0 !important;
+  margin-left: 10px;
+}
+
+.row {
+  flex-direction: row-reverse;
+}
+
+
+tbody#recording-table {
+  direction: rtl;
+}
+
+.form-group {text-align: right;direction: rtl;}
+
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child) {
+  border: 0px !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+.list-group-transparent .list-group-item {
+  text-align: right;
+}
+
+.list-group-transparent .list-group-item span {
+  float: right;
+  margin-left: 13px;
+  margin-right: 0px !important;
+}
