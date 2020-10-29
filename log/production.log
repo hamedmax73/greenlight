@@ -1,0 +1,68 @@
+2020-10-28 20:01:02 +0000 - INFO: [1de9a22c-3540-48b8-9653-87c5c3a7a53c] method=GET path=/b/ format=html controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=25.46 view=0.00 host= 
+2020-10-28 20:01:02 +0000 - FATAL: [1de9a22c-3540-48b8-9653-87c5c3a7a53c]    
+2020-10-28 20:01:02 +0000 - FATAL: [1de9a22c-3540-48b8-9653-87c5c3a7a53c] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 20:01:02 +0000 - FATAL: [1de9a22c-3540-48b8-9653-87c5c3a7a53c]    
+2020-10-28 20:01:02 +0000 - FATAL: [1de9a22c-3540-48b8-9653-87c5c3a7a53c] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 20:01:02 +0000 - INFO: [1de9a22c-3540-48b8-9653-87c5c3a7a53c] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.87 view=0.00 host= 
+2020-10-28 20:01:11 +0000 - INFO: [44088ea7-f1fa-469e-99e4-1b2dc94c8240] method=GET path=/b/ format=html controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=2.14 view=0.00 host= 
+2020-10-28 20:01:11 +0000 - FATAL: [44088ea7-f1fa-469e-99e4-1b2dc94c8240]    
+2020-10-28 20:01:11 +0000 - FATAL: [44088ea7-f1fa-469e-99e4-1b2dc94c8240] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 20:01:11 +0000 - FATAL: [44088ea7-f1fa-469e-99e4-1b2dc94c8240]    
+2020-10-28 20:01:11 +0000 - FATAL: [44088ea7-f1fa-469e-99e4-1b2dc94c8240] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 20:01:11 +0000 - INFO: [44088ea7-f1fa-469e-99e4-1b2dc94c8240] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=1.66 view=0.00 host= 
+2020-10-28 20:02:54 +0000 - INFO: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7] method=GET path=/b/ format=html controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=4.27 view=0.00 host= 
+2020-10-28 20:02:54 +0000 - FATAL: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7]    
+2020-10-28 20:02:54 +0000 - FATAL: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 20:02:54 +0000 - FATAL: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7]    
+2020-10-28 20:02:54 +0000 - FATAL: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 20:02:54 +0000 - INFO: [eaf5e114-2f27-41e3-b2d8-7e446c108ed7] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=4.23 view=0.00 host= 
+2020-10-28 20:02:59 +0000 - INFO: [ae00f189-6cd1-4be3-ad3a-852897faa914] method=GET path=/b/ format=html controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.76 view=0.00 host= 
+2020-10-28 20:02:59 +0000 - FATAL: [ae00f189-6cd1-4be3-ad3a-852897faa914]    
+2020-10-28 20:02:59 +0000 - FATAL: [ae00f189-6cd1-4be3-ad3a-852897faa914] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 20:02:59 +0000 - FATAL: [ae00f189-6cd1-4be3-ad3a-852897faa914]    
+2020-10-28 20:02:59 +0000 - FATAL: [ae00f189-6cd1-4be3-ad3a-852897faa914] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 20:02:59 +0000 - INFO: [ae00f189-6cd1-4be3-ad3a-852897faa914] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.45 view=0.00 host= 
+2020-10-28 20:06:11 +0000 - INFO: [43402a45-d28a-4bb8-a06d-958482184215] method=GET path=/b/ format=html controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=2.71 view=0.00 host= 
+2020-10-28 20:06:11 +0000 - FATAL: [43402a45-d28a-4bb8-a06d-958482184215]    
+2020-10-28 20:06:11 +0000 - FATAL: [43402a45-d28a-4bb8-a06d-958482184215] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 20:06:11 +0000 - FATAL: [43402a45-d28a-4bb8-a06d-958482184215]    
+2020-10-28 20:06:11 +0000 - FATAL: [43402a45-d28a-4bb8-a06d-958482184215] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 20:06:11 +0000 - INFO: [43402a45-d28a-4bb8-a06d-958482184215] method=GET path=/b/500 format=html controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.47 view=0.00 host= 
+2020-10-28 20:07:00 +0000 - INFO: [cf6a6ad3-5d76-47e1-a4e2-4d87c9a40ff0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=1202.94 view=941.61 db=51.80 host=greenlight 
+2020-10-28 20:07:04 +0000 - INFO: [53fb114e-d3c6-4491-bdb1-1ab677b683cf] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=38.80 view=26.94 db=1.78 host=greenlight 
+2020-10-28 20:11:06 +0000 - INFO: [561cd71f-9007-433c-a6ad-a016d7b64aa5] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=58.58 view=38.82 db=2.80 host=greenlight 
+2020-10-28 20:22:13 +0000 - INFO: [581d8120-bf38-4214-b9ae-90bfc343ca02] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=1499.76 view=1165.66 db=61.76 host=greenlight 
+2020-10-28 20:22:13 +0000 - INFO: [4549ef9c-3392-41bc-8fc3-df4a2df36b28] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=1234.84 view=43.12 db=915.38 host=greenlight 
+2020-10-28 20:23:05 +0000 - INFO: [79cf6c90-0719-42a2-8582-7dac8b3db95e] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=70.90 view=51.69 db=2.34 host=greenlight 
+2020-10-28 20:37:06 +0000 - INFO: [d23b384f-2717-4802-93a2-c17c93407362] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=585.13 view=358.87 db=50.35 host=greenlight 
+2020-10-28 21:00:08 +0000 - INFO: [9824fef6-84d4-49b0-bdde-f371fbd12652] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=219.10 view=136.55 db=18.48 host=greenlight 
+2020-10-28 21:00:09 +0000 - INFO: [97e778d9-01b5-4622-bc70-8b70fb7074f8] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=95.02 view=78.61 db=2.88 host=greenlight 
+2020-10-28 21:10:36 +0000 - INFO: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150] method=GET path=/b/ format=*/* controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=5.38 view=0.00 host= 
+2020-10-28 21:10:36 +0000 - FATAL: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150]    
+2020-10-28 21:10:36 +0000 - FATAL: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-28 21:10:36 +0000 - FATAL: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150]    
+2020-10-28 21:10:36 +0000 - FATAL: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-28 21:10:36 +0000 - INFO: [c17f32cf-e724-4b9d-b30e-ae1dd8f9f150] method=GET path=/b/500 format=*/* controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=1.14 view=0.00 host= 
+2020-10-28 21:18:39 +0000 - INFO: [cdd23ed5-21e5-4777-a01d-a5d09ac50e72] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=119.18 view=48.22 db=21.45 host=greenlight 
+2020-10-28 21:18:39 +0000 - INFO: [9d5f80e9-762d-45d2-ba34-632f4a85d045] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=64.62 view=48.31 db=2.29 host=greenlight 
+2020-10-28 21:19:32 +0000 - INFO: [aad846be-d3ad-42a9-8abf-2f376cf2dd8b] method=GET path=/b/ format=*/* controller=MainController action=index status=200 duration=77.07 view=60.32 db=2.17 host=greenlight 
+2020-10-28 21:23:16 +0000 - INFO: [1aee24f4-70f1-4590-bb2b-f3162dc506e8] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=110.40 view=80.35 db=4.12 host=greenlight 
+2020-10-28 21:46:03 +0000 - INFO: [0b660fd3-0041-4bee-b9d2-d302850c3b8a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=151.98 view=75.66 db=18.35 host=greenlight 
+2020-10-28 21:51:29 +0000 - INFO: [c37c897c-e700-4789-8c28-bd1fd2f045b3] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=104.18 view=51.02 db=15.48 host=greenlight 
+2020-10-28 21:51:34 +0000 - INFO: [2ca5aedf-dea7-4921-9df4-19b57658b4ea] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=45.43 view=34.15 db=1.92 host=greenlight 
+2020-10-28 22:13:22 +0000 - INFO: [46d0a5dc-4a26-4df3-94f1-5007083eb2d0] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=137.06 view=74.35 db=16.79 host=greenlight 
+2020-10-28 23:29:27 +0000 - INFO: [0c2c691a-419a-4f62-8f5c-cf4af45884cd] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=116.99 view=49.63 db=16.56 host=greenlight 
+2020-10-29 00:37:01 +0000 - INFO: [0cd9994f-3a96-447f-9b42-c4a5996725e2] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=151.12 view=76.92 db=16.54 host=greenlight 
+2020-10-29 01:47:50 +0000 - INFO: [75c35545-c761-4f8b-9348-e812bf36b7a0] method=GET path=/b/ format=*/* controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=4.36 view=0.00 host= 
+2020-10-29 01:47:50 +0000 - FATAL: [75c35545-c761-4f8b-9348-e812bf36b7a0]    
+2020-10-29 01:47:50 +0000 - FATAL: [75c35545-c761-4f8b-9348-e812bf36b7a0] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-29 01:47:50 +0000 - FATAL: [75c35545-c761-4f8b-9348-e812bf36b7a0]    
+2020-10-29 01:47:50 +0000 - FATAL: [75c35545-c761-4f8b-9348-e812bf36b7a0] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-29 01:47:50 +0000 - INFO: [75c35545-c761-4f8b-9348-e812bf36b7a0] method=GET path=/b/500 format=*/* controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.93 view=0.00 host= 
+2020-10-29 07:48:40 +0000 - INFO: [3f554aaa-55ff-4c68-b93f-79cde0639e5e] method=GET path=/b/ format=*/* controller=MainController action=index status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=6.02 view=0.00 host= 
+2020-10-29 07:48:40 +0000 - FATAL: [3f554aaa-55ff-4c68-b93f-79cde0639e5e]    
+2020-10-29 07:48:40 +0000 - FATAL: [3f554aaa-55ff-4c68-b93f-79cde0639e5e] Errors::UnsafeHostError (185.208.175.244 is not a safe host): 
+2020-10-29 07:48:40 +0000 - FATAL: [3f554aaa-55ff-4c68-b93f-79cde0639e5e]    
+2020-10-29 07:48:40 +0000 - FATAL: [3f554aaa-55ff-4c68-b93f-79cde0639e5e] app/controllers/application_controller.rb:51:in `block_unknown_hosts' 
+2020-10-29 07:48:40 +0000 - INFO: [3f554aaa-55ff-4c68-b93f-79cde0639e5e] method=GET path=/b/500 format=*/* controller=ErrorsController action=internal_error status=500 error='Errors::UnsafeHostError: 185.208.175.244 is not a safe host' duration=0.92 view=0.00 host= 
+2020-10-29 09:46:21 +0000 - INFO: [db7d77f9-ce73-48d5-84ed-bc75a56b4a9a] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=120.63 view=56.49 db=17.01 host=greenlight 
